@@ -66,7 +66,7 @@ public class PauseableThreadPool extends ThreadPoolExecutor {
             lock.unlock();
         }
     }
-
+/*测试git*/
     public static void main(String[] args) throws InterruptedException {
         PauseableThreadPool ptp = new PauseableThreadPool(10, 20, 10l, TimeUnit.SECONDS,new LinkedBlockingQueue<>());
 
